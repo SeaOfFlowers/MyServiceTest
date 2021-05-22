@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/item_a"
+            android:icon="@mipmap/switch_on"
+            android:title="我是A1"
+            app:showAsAction="always"
+           />
+        <item
+            android:id="@+id/item_b"
+            android:icon="@mipmap/switch_on"
+            android:title="我是B"
+            app:showAsAction="always"
+            />
+        <item
+            android:id="@+id/item_c"
+            android:icon="@mipmap/switch_on"
+            android:title="我是C"/>
+    </group>
+    <item android:title="下面三个是啥">
+        <menu>
+            <item
+                android:id="@+id/item_d"
+                android:title="我是D"
+                android:icon="@mipmap/switch_on"/>
+            <item
+                android:id="@+id/item_f"
+                android:title="我是E"
+                android:icon="@mipmap/switch_on"
+                />
+        </menu>
+    </item>
+    <item android:title="我是结尾">
+        <menu>
+            <item
+                android:id="@+id/item_g"
+                android:title="我是G"
+                android:icon="@color/black"/>
+
+        </menu>
+    </item>
+</menu>

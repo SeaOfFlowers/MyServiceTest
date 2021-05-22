@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff00ff00"
+    >
+   <androidx.appcompat.widget.LinearLayoutCompat
+       android:layout_width="match_parent"
+       android:layout_height="100dp"
+       android:orientation="vertical"
+       >
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="窗外的麻雀在电线杆上多嘴，你说这一句很有夏天的柑橘"
+           android:textSize="30sp"
+
+           />
+
+
+   </androidx.appcompat.widget.LinearLayoutCompat>
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="200dp"
+          android:background="@mipmap/switch_on"
+          />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
